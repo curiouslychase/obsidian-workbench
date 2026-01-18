@@ -14,11 +14,11 @@ Guide the user through defining themselves and their goals. Ask questions one at
 
 ## After gathering info
 
-Create the following in the `/vault` directory:
+Create the following in `/vault/000 OS/`:
 
-1. `_about-me.md` - A summary of who they are and their goals
-2. `_my-system.md` - Their personalized system config based on constraints/goals
-3. `000-start-here.md` - Their personalized getting started guide
+1. `About Me.md` - A summary of who they are and their goals
+2. `My System.md` - Their personalized system config based on constraints/goals
+3. `!Start Here.md` - Their personalized getting started guide (! pins to top)
 
 Then:
 
@@ -37,7 +37,7 @@ Include in both the terminal output and `setup.md`:
    - Navigate to: `{$PWD}/vault`
 3. **Start with**: Open `000-start-here.md`
 
-Save these instructions to `/vault/setup.md` so they can reference them later.
+Save these instructions to `/vault/000 OS/Setup.md` so they can reference them later.
 
 Finally, prompt them to run `/level-1` when they're ready to begin daily journaling.
 

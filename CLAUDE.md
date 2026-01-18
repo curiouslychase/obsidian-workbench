@@ -34,6 +34,12 @@ Users progress via slash commands that build on each other:
 
 Commands live in `.claude/commands/`. Each level checks prerequisites from previous levels.
 
+## File Naming
+
+- Do NOT kebab-case filenames
+- Use Title Case with spaces (e.g., `000 OS/`, `My Notes.md`)
+- Prefix with `!` to pin files to top of sort order (e.g., `!Start Here.md`)
+
 ## Philosophy
 
 - Start with one thing, build consistency first
