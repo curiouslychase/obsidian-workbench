@@ -2,6 +2,8 @@
 
 ## Project Overview
 
+Think of this as a crawler-type RPG. Users start at Level 0, define themselves and their goals, then progressively unlock new capabilities through consistent practice.
+
 obsidian-workbench is an iterative Obsidian vault builder. Users clone and progressively build their own PKM (personal knowledge management) system through guided weekly levels.
 
 Core principle: Systems are earned through consistent small actions, not downloaded as templates.
@@ -20,6 +22,17 @@ Core principle: Systems are earned through consistent small actions, not downloa
 3. Linking (connect ideas)
 4. Projects (goal organization)
 5. Advanced workflows (customization)
+
+## Claude Code Commands
+
+Users progress via slash commands that build on each other:
+
+- `/level-0` - Initialize vault, define goals and constraints
+- `/level-1` - Set up daily journaling practice
+- `/level-2` - Add weekly review (coming soon)
+- `/level-3+` - Progressive unlocks
+
+Commands live in `.claude/commands/`. Each level checks prerequisites from previous levels.
 
 ## Philosophy
 
