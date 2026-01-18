@@ -14,7 +14,7 @@ Create `/vault/100 Periodics/Daily/` directory.
 
 ### 2. Create Weekly Note Template
 
-Create `/templates/Weekly.md`:
+Create `/vault/templates/Weekly.md`:
 
 ```markdown
 # {{DATE:YYYY-MM-DD ddd}}

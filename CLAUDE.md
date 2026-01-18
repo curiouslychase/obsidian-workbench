@@ -10,10 +10,8 @@ Core principle: Systems are earned through consistent small actions, not downloa
 
 ## Structure
 
-- `/levels` - Progressive guides, one per level
-- `/templates` - Obsidian templates that unlock with progress
-- `/workflows` - Claude Code workflows for each level
-- `/vault` - Working Obsidian vault
+- `/.claude/commands/` - Claude Code slash commands
+- `/vault/` - Working Obsidian vault (all non-Claude content lives here)
 
 ## Levels
 
