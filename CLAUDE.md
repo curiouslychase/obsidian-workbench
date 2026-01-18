@@ -25,20 +25,28 @@ Core principle: Systems are earned through consistent small actions, not downloa
 
 ## Claude Code Commands
 
-Users progress via slash commands that build on each other:
+Users progress via slash commands. Each level can have multiple lessons:
 
-- `/level-0` - Initialize vault, define goals and constraints
-- `/level-1` - Set up daily journaling practice
-- `/level-2` - Add weekly review (coming soon)
-- `/level-3+` - Progressive unlocks
+```
+level-{level}-{lesson}-{action}
+```
+
+Examples:
+- `level-1-000-setup` - Set up interstitial journaling
+- `level-1-001-first-journal-entry` - Create first entry
+- `level-2-000-setup` - Configure weekly review
 
 Commands live in `.claude/commands/`. Each level checks prerequisites from previous levels.
 
 ## File Naming
 
-- Do NOT kebab-case filenames
+**Vault files:**
+- Do NOT kebab-case
 - Use Title Case with spaces (e.g., `000 OS/`, `My Notes.md`)
-- Prefix with `!` to pin files to top of sort order (e.g., `!Start Here.md`)
+- Prefix with `!` to pin files to top (e.g., `!Start Here.md`)
+
+**Command files (.claude/commands/):**
+- Use kebab-case (e.g., `level-1-000-setup.md`)
 
 ## Philosophy
 
