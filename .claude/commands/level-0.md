@@ -20,7 +20,26 @@ Create the following in the `/vault` directory:
 2. `_my-system.md` - Their personalized system config based on constraints/goals
 3. `000-start-here.md` - Their personalized getting started guide
 
-Then explain what you created and prompt them to run `/level-1` when they're ready to begin daily journaling.
+Then:
+
+1. Get the current working directory using `$PWD`
+2. Create `/vault/setup.md` with Obsidian setup instructions including the vault path
+3. Display the setup instructions to the user
+
+## Setup Instructions Template
+
+Include in both the terminal output and `setup.md`:
+
+1. **Install Obsidian**: Download from https://obsidian.md
+2. **Open your vault**:
+   - Open Obsidian
+   - Click "Open folder as vault"
+   - Navigate to: `{$PWD}/vault`
+3. **Start with**: Open `000-start-here.md`
+
+Save these instructions to `/vault/setup.md` so they can reference them later.
+
+Finally, prompt them to run `/level-1` when they're ready to begin daily journaling.
 
 ## Tone
 
